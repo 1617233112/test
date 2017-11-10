@@ -1,0 +1,260 @@
+Python 2.7.13 (v2.7.13:a06454b1afa1, Dec 17 2016, 20:42:59) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> var = '1'
+>>> print type(var)
+<type 'str'>
+>>> new_var = int(var) + 1
+>>> print new_vaar
+
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    print new_vaar
+NameError: name 'new_vaar' is not defined
+>>> print new _var
+SyntaxError: invalid syntax
+>>> print new_var
+2
+>>> var = 'abc'
+>>> int(var)
+
+Traceback (most recent call last):
+  File "<pyshell#7>", line 1, in <module>
+    int(var)
+ValueError: invalid literal for int() with base 10: 'abc'
+>>> var = 1
+>>> page_num = 1
+>>> print "第",page_num,"页"
+第 1 页
+>>> print type(page_num)
+<type 'int'>
+>>> print "第" + str(page_num) + "页"
+第1页
+>>> print random()
+
+Traceback (most recent call last):
+  File "<pyshell#13>", line 1, in <module>
+    print random()
+NameError: name 'random' is not defined
+>>> import random()
+SyntaxError: invalid syntax
+>>> rndom.Random()
+
+Traceback (most recent call last):
+  File "<pyshell#15>", line 1, in <module>
+    rndom.Random()
+NameError: name 'rndom' is not defined
+>>> random.Random()
+
+Traceback (most recent call last):
+  File "<pyshell#16>", line 1, in <module>
+    random.Random()
+NameError: name 'random' is not defined
+>>> rimporte random
+SyntaxError: invalid syntax
+>>> import random
+>>> random.Random()
+<random.Random object at 0x01ADEE10>
+>>> random.choice("['a','b','c']")
+"'"
+>>> random.choice("['a','b','c']")
+"'"
+>>> random.choice("['a','b','c']")
+"'"
+>>> test_list = ['a','b','c']
+>>> random.choice(test_list)
+'a'
+>>> random.choice("['a','b','c']")
+"'"
+>>> random.choice(['a','b','c'])
+'a'
+>>> random.choice(['a','b','c'])
+'c'
+>>> random.choice(['a','b','c'])
+'b'
+>>> random.choice(['a','b','c'])
+'c'
+>>> random.choice(['a','b','c'])
+'a'
+>>> random.choice(['a','b','c'])
+'b'
+>>> random.choice(['a','b','c'])
+'c'
+>>> list1 = ['physics','chemistry',1997,2000]:
+	
+SyntaxError: invalid syntax
+>>> list1 = ['physice','chemistry',1997,2000];
+>>> list1[0]
+'physice'
+>>> list1[1]
+'chemistry'
+>>> list1[0:1]
+['physice']
+>>> list1[0;2]
+SyntaxError: invalid syntax
+>>> list1 [0:2]
+['physice', 'chemistry']
+>>> list1 [1:2]
+['chemistry']
+>>> list1 [1:3]
+['chemistry', 1997]
+>>> list2 = [1,2,3,4,5];
+>>> list1+list2
+['physice', 'chemistry', 1997, 2000, 1, 2, 3, 4, 5]
+>>> list1 *list2
+
+Traceback (most recent call last):
+  File "<pyshell#44>", line 1, in <module>
+    list1 *list2
+TypeError: can't multiply sequence by non-int of type 'list'
+>>> list1
+['physice', 'chemistry', 1997, 2000]
+>>> 
+
+>>> 
+
+
+
+>>> 
+>>> list1+list2
+['physice', 'chemistry', 1997, 2000, 1, 2, 3, 4, 5]
+>>> list1*list2
+
+Traceback (most recent call last):
+  File "<pyshell#50>", line 1, in <module>
+    list1*list2
+TypeError: can't multiply sequence by non-int of type 'list'
+>>> list1 = [2,3]
+>>> list1*list2
+
+Traceback (most recent call last):
+  File "<pyshell#52>", line 1, in <module>
+    list1*list2
+TypeError: can't multiply sequence by non-int of type 'list'
+>>> list1*2
+[2, 3, 2, 3]
+>>> list2*3
+[1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5]
+>>> 3 in [1,2,3]
+True
+>>> if 3 in [1,2,3]:
+	print OK
+
+	
+
+Traceback (most recent call last):
+  File "<pyshell#58>", line 2, in <module>
+    print OK
+NameError: name 'OK' is not defined
+>>> 
+>>> if 3 in [1,2,3]
+SyntaxError: invalid syntax
+>>> if 3 in [1,2,3]:
+	print "Ok"
+
+	
+Ok
+>>> list  = []
+>>> list.append("a")
+>>> ;ost
+SyntaxError: invalid syntax
+>>> list
+['a']
+>>> list = ['physics','chemistry',1997,2000]
+>>> list = ['physice','chemistry',1997,2000];
+>>> list[2]
+1997
+>>> list
+['physice', 'chemistry', 1997, 2000]
+>>> del list[2]
+>>> list
+['physice', 'chemistry', 2000]
+>>> list1
+[2, 3]
+>>> list2
+[1, 2, 3, 4, 5]
+>>> cmp(list1,list2)
+1
+>>> list1 = [2,3,4,5,6]
+>>> cmp(list1,list2)
+1
+>>> list1 = [0,1]
+>>> cmp(list1,list2)
+-1
+>>> list1,list2 = [123,'xyz'],[456,'abc']
+>>> cmp(list1,list2)
+-1
+>>> list1 = [789,'zzz']
+>>> cmp(list1,list2)
+1
+>>> list1 = [456,'abc']
+>>> cmp(list1,list2)
+0
+>>> list1 = [456,'zzz']
+>>> cmp(list1,list2)
+1
+>>> list1 = [456,'aaa']
+>>> cmp(list1)
+
+Traceback (most recent call last):
+  File "<pyshell#90>", line 1, in <module>
+    cmp(list1)
+TypeError: cmp expected 2 arguments, got 1
+>>> cmp(list1,)
+
+Traceback (most recent call last):
+  File "<pyshell#91>", line 1, in <module>
+    cmp(list1,)
+TypeError: cmp expected 2 arguments, got 1
+>>> cmp(list1, )
+
+Traceback (most recent call last):
+  File "<pyshell#92>", line 1, in <module>
+    cmp(list1, )
+TypeError: cmp expected 2 arguments, got 1
+>>> list1 = [456,'aaa']
+>>> cmp(list1, )
+
+Traceback (most recent call last):
+  File "<pyshell#94>", line 1, in <module>
+    cmp(list1, )
+TypeError: cmp expected 2 arguments, got 1
+>>> cmp(list1,list2)
+-1
+>>> len(list1)
+2
+>>> list2 = [1,2,3,4,5]
+>>> max(list2)
+5
+>>> tuple1 = (1,2,3,4)
+>>> list(tuple)
+
+Traceback (most recent call last):
+  File "<pyshell#100>", line 1, in <module>
+    list(tuple)
+TypeError: 'list' object is not callable
+>>> list(tuple1)
+
+Traceback (most recent call last):
+  File "<pyshell#101>", line 1, in <module>
+    list(tuple1)
+TypeError: 'list' object is not callable
+>>> tuple1 = (1,2,3,4)
+>>> list(tuple1)
+
+Traceback (most recent call last):
+  File "<pyshell#103>", line 1, in <module>
+    list(tuple1)
+TypeError: 'list' object is not callable
+>>> aTuple = (123,'xyz','zara','abc')
+>>> aList = list(aTuple)
+
+Traceback (most recent call last):
+  File "<pyshell#105>", line 1, in <module>
+    aList = list(aTuple)
+TypeError: 'list' object is not callable
+>>> list2
+[1, 2, 3, 4, 5]
+>>> list2.reverse()
+>>> list2
+[5, 4, 3, 2, 1]
+>>> 
