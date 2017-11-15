@@ -23,12 +23,12 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: 'abc'
 >>> var = 1
 >>> page_num = 1
->>> print "��",page_num,"ҳ"
-�� 1 ҳ
+>>> print "µÚ",page_num,"Ò³"
+µÚ 1 Ò³
 >>> print type(page_num)
 <type 'int'>
->>> print "��" + str(page_num) + "ҳ"
-��1ҳ
+>>> print "µÚ" + str(page_num) + "Ò³"
+µÚ1Ò³
 >>> print random()
 
 Traceback (most recent call last):
