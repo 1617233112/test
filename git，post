@@ -133,3 +133,8 @@ Type "copyright", "credits" or "license()" for more information.
   </body>
 </html>
 >>> 
+>>> response.geturl
+<bound method addinfourl.geturl of <addinfourl at 35987584 whose fp = <socket._fileobject object at 0x022496F0>>>
+>>> response.geturl()
+'http://passport.csdn.net/account/login?username=1016903103%40qq.com&password=XXXXXX'
+>>> 
